@@ -2,9 +2,9 @@ from flask import Flask, request
 import paramiko
 
 
-config = { 'hostname' : '37.140.192.54',
-					'username' : 'u0829504',
-					'password' : 'WcXUE!v9',
+config = { 'hostname' : 'host',
+					'username' : 'user',
+					'password' : 'pass',
 					'port' : 22}
 
 app = Flask(__name__)
